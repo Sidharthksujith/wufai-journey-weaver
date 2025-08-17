@@ -13,8 +13,11 @@
     /* Text hierarchy */
     --text-primary: 0 0% 0%;
     --text-secondary: 0 0% 20%;
-    --text-muted: 0 0% 60%;
+    --text-muted: 0 0% 30%;
     --text-light: 0 0% 85%;
+    
+    /* Brand colors */
+    --brand-blue: 249 100% 62%;
     
     /* Borders and accents */
     --border-light: 0 0% 87%;

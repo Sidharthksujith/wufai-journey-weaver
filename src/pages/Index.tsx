@@ -1,6 +1,14 @@
+import { useState } from "react";
 import CountdownTimer from "@/components/CountdownTimer";
 import EmailNotifyForm from "@/components/EmailNotifyForm";
+import Preloader from "@/components/Preloader";
 const Index = () => {
+  const [showPreloader, setShowPreloader] = useState(true);
+
+  if (showPreloader) {
+    return <Preloader onComplete={() => setShowPreloader(false)} />;
+  }
+
   return (
     <div className="min-h-screen bg-background flex flex-col">
       {/* Main Content Container */}
