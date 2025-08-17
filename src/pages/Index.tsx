@@ -9,9 +9,11 @@ const Index = () => {
           
           {/* Logo Section */}
           <div className="flex justify-center">
-            <div className="text-2xl font-bold tracking-wider text-text-primary">
-              WUFAI
-            </div>
+            <img 
+              src="/lovable-uploads/938e4f3b-6dfe-4057-8ebb-f9827640925a.png" 
+              alt="WUFAI Logo" 
+              className="h-16 w-auto object-contain"
+            />
           </div>
 
           {/* Main Heading */}
