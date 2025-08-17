@@ -47,7 +47,7 @@ const EmailNotifyForm = () => {
         <Button
           type="submit"
           disabled={isSubmitting}
-          className="h-12 px-8 bg-background text-text-primary border border-border-light rounded-xl hover:bg-muted font-medium transition-colors"
+          className="h-12 px-8 bg-primary text-primary-foreground rounded-xl hover:bg-primary/90 font-medium transition-colors"
         >
           {isSubmitting ? 'Submitting...' : 'Notify Me'}
         </Button>

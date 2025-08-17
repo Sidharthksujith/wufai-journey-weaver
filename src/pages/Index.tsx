@@ -5,7 +5,7 @@ const Index = () => {
     <div className="min-h-screen bg-background flex flex-col">
       {/* Main Content Container */}
       <div className="flex-1 flex flex-col items-center justify-center px-6 py-12">
-        <div className="w-full max-w-2xl mx-auto text-center space-y-16">
+        <div className="w-full max-w-2xl mx-auto text-center space-y-12">
           
           {/* Logo Section */}
           <div className="flex justify-center">
@@ -17,14 +17,14 @@ const Index = () => {
           </div>
 
           {/* Main Heading */}
-          <div className="space-y-6">
+          <div className="space-y-4">
             <h1 className="text-hero">
               WUFAI
             </h1>
             
             {/* Subheading */}
             <h2 className="text-subtitle">
-              Curating Bhutan & Kenya, Differently.
+              A Travel Company Curating Bhutan & Kenya, Differently.
             </h2>
             
             {/* Intro Line */}
@@ -46,7 +46,7 @@ const Index = () => {
       </div>
 
       {/* Footer */}
-      <footer className="py-8 text-center">
+      <footer className="py-6 text-center">
         <p className="text-footer">
           Coming Soon. Stay tuned for the future of destination travel.
         </p>

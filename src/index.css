@@ -118,7 +118,7 @@
 
   .text-subtitle {
     @apply text-xl md:text-2xl font-semibold tracking-tight;
-    color: hsl(var(--text-secondary));
+    color: hsl(var(--text-primary));
   }
 
   .text-intro {
@@ -128,7 +128,7 @@
 
   .text-footer {
     @apply text-sm font-light;
-    color: hsl(var(--text-light));
+    color: hsl(var(--text-muted));
   }
 
   /* Timer styles */
